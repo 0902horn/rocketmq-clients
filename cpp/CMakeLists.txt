@@ -32,3 +32,5 @@ if (BUILD_EXAMPLES)
     find_package(ZLIB REQUIRED)
     add_subdirectory(examples)
 endif ()
+
+find_package(benchmark REQUIRED)
